@@ -1,3 +1,6 @@
+---
+title: desmos tricks homepage
+---
 ## data types
 
 * [numbers](datatypes/number)
