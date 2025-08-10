@@ -9,3 +9,4 @@ vendor
 Gemfile
 Gemfile.lock
 _site/index.html
+assets/temml.min.js

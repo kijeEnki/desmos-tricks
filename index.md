@@ -1,19 +1,9 @@
 ---
-layout: default
-title: Home
+layout: home
+title: index
 ---
 
-# desmos tricks
-
-this is a wiki where i’ll try to document cool things you can do with desmos the graphing calculator.
-
-testing math…
-
-$$\left\{\left|\sqrt{1}\right|=1,0\right\}$$
-
-## index
-
-### data types
+## data types
 
 * [numbers](datatypes/number.md)
     * [complex mode](datatypes/complex.md)
@@ -22,7 +12,7 @@ $$\left\{\left|\sqrt{1}\right|=1,0\right\}$$
 * [3d point](datatypes/3dpoint.md)
 * [distribution](datatypes/dist.md)
 
-### functions and operators
+## functions and operators
 
 * arithmetic
     * [plus (+)](funcs/plus.md)
