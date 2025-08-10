@@ -24,7 +24,6 @@ this is a wiki where i’ll try to document cool things you can do with desmos t
     * [roots (√)](funcs/root.md)
     * [logarithms](funcs/logarithm.md)
 * trigonometry
-    * [cotangent](funcs/cotangent.md)
     * [sine](funcs/sin.md)
     * [cosine](funcs/cos.md)
     * [tangent](funcs/tan.md)
