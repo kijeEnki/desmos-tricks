@@ -7,6 +7,10 @@ title: Home
 
 this is a wiki where i’ll try to document cool things you can do with desmos the graphing calculator.
 
+testing math…
+
+$$\left\{\left|\sqrt{1}\right|=1,0\right\}$$
+
 ## index
 
 ### data types
