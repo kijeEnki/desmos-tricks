@@ -7,6 +7,7 @@ this is a wiki where i’ll try to document cool things you can do with desmos t
 ### data types
 
 * [numbers](datatypes/number.md)
+    * [complex mode](datatypes/complex.md)
 * [boolean](datatypes/boolean.md)
 * [2d point](datatypes/2dpoint.md)
 * [3d point](datatypes/3dpoint.md)
@@ -23,10 +24,13 @@ this is a wiki where i’ll try to document cool things you can do with desmos t
     * [roots (√)](funcs/root.md)
     * [logarithms](funcs/logarithm.md)
 * trigonometry
-    * [sine](funcs/sine.md)
-    * [cosine](funcs/cosine.md)
-    * [tangent](funcs/tangent.md)
     * [cotangent](funcs/cotangent.md)
+    * [sine](funcs/sin.md)
+    * [cosine](funcs/cos.md)
+    * [tangent](funcs/tan.md)
+    * [cotangent](funcs/cot.md)
+    * [arctangent](funcs/arctan.md)
+    * *[atan2](funcs/arctan2.md)*
 * lists
     * [ellipsis operator (…)](funcs/ellipsis.md)
     * [list brackets](funcs/listbracket.md)
