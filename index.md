@@ -1,3 +1,8 @@
+---
+layout: default
+title: Home
+---
+
 # desmos tricks
 
 this is a wiki where i’ll try to document cool things you can do with desmos the graphing calculator.
