@@ -35,7 +35,7 @@ this is a wiki where i’ll try to document cool things you can do with desmos t
     * [list brackets](funcs/listbracket.md)
     * [index brackets](funcs/indexbracket.md)
 * conditions
-    * [braces {}](funcs/brace.md)
+    * [braces {…}](funcs/brace.md)
     * [ternary operator (…:…,…)](funcs/ifthenelse.md)
 
 
