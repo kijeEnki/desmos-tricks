@@ -2,7 +2,8 @@ let mathBlocks = document.querySelectorAll("math");
 
 for (let math of mathBlocks) {
     let button = document.createElement("button");
-    button.innerText = "copy";
+    button.innerText = "(copy)";
+    button.style.marginLeft = "0.5em";
     button.addEventListener("click", async () => {
         const semantics = math.querySelector("semantics");
         const annotation = semantics.querySelector("annotation");
