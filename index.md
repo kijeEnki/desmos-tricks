@@ -5,37 +5,37 @@ title: index
 
 ## data types
 
-* [numbers](datatypes/number.md)
-    * [complex mode](datatypes/complex.md)
-* [boolean](datatypes/boolean.md)
-* [2d point](datatypes/2dpoint.md)
-* [3d point](datatypes/3dpoint.md)
-* [distribution](datatypes/dist.md)
+* [numbers](datatypes/number)
+    * [complex mode](datatypes/complex)
+* [boolean](datatypes/boolean)
+* [2d point](datatypes/2dpoint)
+* [3d point](datatypes/3dpoint)
+* [distribution](datatypes/dist)
 
 ## functions and operators
 
 * arithmetic
-    * [plus (+)](funcs/plus.md)
-    * [minus (−)](funcs/minus.md)
-    * [times (⋅)](funcs/times.md)
-    * [division](funcs/divide.md)
-    * [exponents](funcs/exponent.md)
-    * [roots (√)](funcs/root.md)
-    * [logarithms](funcs/logarithm.md)
+    * [plus (+)](funcs/plus)
+    * [minus (−)](funcs/minus)
+    * [times (⋅)](funcs/times)
+    * [division](funcs/divide)
+    * [exponents](funcs/exponent)
+    * [roots (√)](funcs/root)
+    * [logarithms](funcs/logarithm)
 * trigonometry
-    * [sine](funcs/sin.md)
-    * [cosine](funcs/cos.md)
-    * [tangent](funcs/tan.md)
-    * [cotangent](funcs/cot.md)
-    * [arctangent](funcs/arctan.md)
-    * *[atan2](funcs/arctan2.md)*
+    * [sine](funcs/sin)
+    * [cosine](funcs/cos)
+    * [tangent](funcs/tan)
+    * [cotangent](funcs/cot)
+    * [arctangent](funcs/arctan)
+    * *[atan2](funcs/arctan2)*
 * lists
-    * [ellipsis operator (…)](funcs/ellipsis.md)
-    * [list brackets](funcs/listbracket.md)
-    * [index brackets](funcs/indexbracket.md)
+    * [ellipsis operator (…)](funcs/ellipsis)
+    * [list brackets](funcs/listbracket)
+    * [index brackets](funcs/indexbracket)
 * conditions
-    * [braces {…}](funcs/brace.md)
-    * [ternary operator (…:…,…)](funcs/ifthenelse.md)
+    * [braces {…}](funcs/brace)
+    * [ternary operator (…:…,…)](funcs/ifthenelse)
 
 
 (work in progress)
