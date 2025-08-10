@@ -36,6 +36,7 @@ title: index
 * conditions
     * [braces {…}](/funcs/brace)
     * [ternary operator (…:…,…)](/funcs/ifthenelse)
+* [actions](/funcs/actions)
 
 
 (work in progress)
