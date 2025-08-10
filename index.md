@@ -1,8 +1,3 @@
----
-layout: home
-title: index
----
-
 ## data types
 
 * [numbers](datatypes/number)
