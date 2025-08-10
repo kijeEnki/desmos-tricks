@@ -1,12 +1,9 @@
-_site
-_site/*
+/_site
+/_site/*
 .sass-cache
 .jekyll-cache
 .jekyll-cache/*
 .jekyll-metadata
 vendor
-/_site
 Gemfile
 Gemfile.lock
-_site/index.html
-assets/temml.min.js
