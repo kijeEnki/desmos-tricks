@@ -6,7 +6,7 @@ title: "actions"
 
 ## enabling actions
 
-by default, you can’t use actions. if you need to use actions, go to your account settings and enable them. this will allow you to use actions and the [ticker](ticker).
+by default, you can’t add actions to your graph. if you need to add actions to your work, go to your account settings and enable them. this will allow you to use actions and the [ticker](ticker).
 
 ## usage
 
