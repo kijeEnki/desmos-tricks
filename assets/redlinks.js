@@ -12,7 +12,7 @@ async function findBrokenLinks(linkList) {
       if (!promise.ok) {
         brokenLinks.push(link);
       }
-    } catch (e) {}
+    } catch {}
   }
 
   return brokenLinks;
