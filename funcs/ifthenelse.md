@@ -2,7 +2,7 @@
 title: ternary operator
 ---
 
-in desmos, you can use the **ternary operator** with [braces](braces) to create or check conditions.
+in desmos, you can use the **ternary operator** with [braces](brace) to create or check conditions.
 
 the braces signify that what’s inside of them should be taken as a condition check.
 
