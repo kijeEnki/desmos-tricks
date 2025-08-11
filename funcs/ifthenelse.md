@@ -21,7 +21,7 @@ you might chain a few conditions with their values, however there may only be on
 by the way, the “values” when an expression is true or not do not have to be values. you can also put an [action](actions) there, like in the exercise below.
 
 <details>
-  <summary>exercise*: write an action that iterates \\(a\\) through the <a href="https://en.wikipedia.org/wiki/Collatz_conjecture">collatz conjecture</a></summary>
+  <summary>exercise*: write an action that iterates \(a\) through the <a href="https://en.wikipedia.org/wiki/Collatz_conjecture">collatz conjecture</a></summary>
   answer:
   $$\left\{\operatorname{mod}\left(a,2\right)=0:a\to\frac{a}{2},\operatorname{mod}\left(a,2\right)=1:a\to3a+1\right\}$$
 </details>
