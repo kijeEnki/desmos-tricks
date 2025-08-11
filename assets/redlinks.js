@@ -7,7 +7,9 @@ async function findBrokenLinks(linkList) {
   for (const link of linkList) {
     const target = link.href;
 
-    let promise = await fetch(target);
+    try {
+      let promise = await fetch(target);
+    } catch (e) {}
     if (!promise.ok) {
       brokenLinks.push(link);
     }
