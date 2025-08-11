@@ -14,4 +14,6 @@ the simplest type of checking the truth of a condition is by doing something lik
 
 you can also modify the “true” value and the “false” value: say, you’re working on something which requires \\(0\\) for true and \\(1\\) for false (weird but plausible). that’s not a problem! you can do exactly that using this syntax: \\(\left\\{\text{condition}:{\color{Blue}\text{value when true}},{\color{Red}\text{value when false}}\right\\}\\), or in our case, $\left\\{x<3:0,1\right\\}$.
 
+you can skip those as well: $\left\\{x<3,1\right\\}$ and $\left\\{x<3:0\right\\}$.
+
 by the way, the “values” when an expression is true or not do not have to be values. you can also put an [action](actions) there.
