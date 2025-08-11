@@ -9,10 +9,11 @@ async function findBrokenLinks(linkList) {
 
     try {
       let promise = await fetch(target);
+      if (!promise.ok) {
+        brokenLinks.push(link);
+      }
     } catch (e) {}
-    if (!promise.ok) {
-      brokenLinks.push(link);
-    }
+    
   }
 
   return brokenLinks;
