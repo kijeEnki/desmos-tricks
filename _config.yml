@@ -1,3 +1,7 @@
 title: desmos tricks
 description: "site about desmos."
 theme: minima
+header_pages:
+  - index.md
+  - about.md
+  - open_desmos.html
