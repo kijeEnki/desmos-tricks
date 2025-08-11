@@ -14,14 +14,14 @@ the simplest type of checking the truth of a condition is by doing something lik
 
 you can also modify the “true” value and the “false” value: say, you’re working on something which requires \\(0\\) for true and \\(1\\) for false (weird but plausible). that’s not a problem! you can do exactly that using this syntax: \\(\left\\{\text{condition}:{\color{Blue}\text{value when true}},{\color{Red}\text{value when false}}\right\\}\\), or in our case, $\left\\{x<3:0,1\right\\}$.
 
-you can skip those as well: $\left\\{x<3,1\right\\}$ and $\left\\{x<3:0\right\\}$.
+if you only need to change the truthy value or only the falsy value, you can skip what you don’t need. say, you’re fine with \\(1\\) being the truthy value, but you want to change the falsy value to, say, \\(2\\). you can do that: $\left\\{x<3,2\right\\}$. if \\(x\\) is smaller than three, we don’t have an explicitly specified value, so desmos just uses \\(1\\). however if it isn’t smaller than three, then it uses our own explicitly set value, which is \\(2\\). similarly you can change the truthy value without touching the default “undefined” for false evaluations by omitting \\(,\\) and what comes after it, like this: \\(\left\\{\text{condition}:{\color{Blue}\text{value when true}}\right\\}\\).
 
 you might chain a few conditions with their values, however there may only be one “else” value. as an example, the signum function may be used, which is defined as \\(\operatorname{signum}\left(x\right)=\\)$\left\\{x<0:-1,x=0:0,x>0:1\right\\}$
 
 by the way, the “values” when an expression is true or not do not have to be values. you can also put an [action](actions) there, like in the exercise below.
 
 <details>
-  <summary>exercise*: write an action that iterates \(a\) through the <a href="https://en.wikipedia.org/wiki/Collatz_conjecture">collatz conjecture</a></summary>
+  <summary>exercise*: write an action that iterates \(a\) through the <a href="https://en.wikipedia.org/wiki/Collatz_conjecture">collatz conjecture</a>.</summary>
   answer:
   $$\left\{\operatorname{mod}\left(a,2\right)=0:a\to\frac{a}{2},\operatorname{mod}\left(a,2\right)=1:a\to3a+1\right\}$$
 </details>
