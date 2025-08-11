@@ -16,4 +16,12 @@ you can also modify the “true” value and the “false” value: say, you’r
 
 you can skip those as well: $\left\\{x<3,1\right\\}$ and $\left\\{x<3:0\right\\}$.
 
-by the way, the “values” when an expression is true or not do not have to be values. you can also put an [action](actions) there.
+you might chain a few conditions with their values, however there may only be one “else” value. as an example, the signum function may be used, which is defined as \\(\operatorname{signum}\left(x\right)=\\)$\left\\{x<0:-1,x=0:0,x>0:1\right\\}$
+
+by the way, the “values” when an expression is true or not do not have to be values. you can also put an [action](actions) there, like in the exercise below.
+
+<details>
+  <summary>exercise*: write an action that iterates \\(a\\) through the <a href="https://en.wikipedia.org/wiki/Collatz_conjecture">collatz conjecture</a></summary>
+  answer:
+  $$\left\{\operatorname{mod}\left(a,2\right)=0:a\to\frac{a}{2},\operatorname{mod}\left(a,2\right)=1:a\to3a+1\right\}$$
+</details>
