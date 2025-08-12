@@ -1,8 +1,10 @@
 ---
-title: ternary operator
+title: if-then-else
 ---
 
-in desmos, you can use the **ternary operator** with [braces](brace) to create or check conditions.
+in desmos, you can use the **conditional operator** with [braces](brace) to create or check conditions.
+
+in most programming languages, an inline `if … else` is called the *ternary* operator, because it takes three inputs (condition, value if true, value if false). however in desmos, you can add as many conditions as you want.
 
 the braces signify that what’s inside of them should be taken as a condition check.
 
